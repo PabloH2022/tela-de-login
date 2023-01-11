@@ -8,8 +8,8 @@
     }
 
     body {
-        background: linear-gradient(to bottom, #490b71, #5f44a8b3, #103497b4 );
-        max-height: 70vh;
+        background: linear-gradient(to bottom, #490b71, #5f44a8b3, #103497b4 ) no-repeat;
+        max-height: 71vh;
         width: 100vw;
     }
 
