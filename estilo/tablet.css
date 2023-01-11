@@ -6,9 +6,7 @@
         width: 0px;
         height: 0px;
     }
-    html {
-        background: linear-gradient(to bottom, #490b71, #5f44a8b3, #103497b4 ) no-repeat;
-    }
+   
 
     body {
         background: linear-gradient(to bottom, #490b71, #5f44a8b3, #103497b4 ) no-repeat;
