@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="estilo/celular.css" media="screen">
+    <link rel="stylesheet" href="estilo/tablet.css" media="screen">
+    <link rel="stylesheet" href="estilo/notebook.css" media="screen">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        h2 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2em;
+        }
+    </style>
+    
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem"></div>
+            <div id="form">
+                <form action="forms.php" method="post" autocomplete="on">
+                    <h2>Login</h2>
+                    <p id="bemvindo">Seja bem vindo(a) novamente. faça loguin para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                    <p id="input">
+                        
+                            <div class="campo">
+                                
+                                <label for="email"> <span class="material-symbols-outlined">
+                                    person_2
+                                    </span></label>
+                                <input type="email" name="email" id="email" placeholder="seu e-mail" size="20" autocomplete="email" required>
+                            </div>
+                       
+                    </p>
+                    <p id="input">
+                        
+                            <div class="campo">
+                                
+                                <label for="senha"><span class="material-symbols-outlined">
+                                    vpn_key
+                                    </span></label>
+                                <input type="password" name="senha" id="senha" placeholder="sua senha" size="20" 56y required>
+                            </div>
+                        
+                    </p>
+    
+                    <p>
+                        <input id="entrar" type="submit" value="Entrar">
+                        
+                    </p>
+                    <div class='esqsenha'>
+                        <a href="#">Esqueci a Senha 
+                            <span class="material-symbols-outlined" id="email">
+                                mail
+                                </span>
+                        </a>
+                    </div>
+            
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

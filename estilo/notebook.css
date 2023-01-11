@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    body {
+        background: linear-gradient(to bottom, #490b71, #5f44a8b3, #103497b4 );
+        max-height: 70vh;
+        width: 100vw;
+    }
+
+    section#login {
+        margin-top: 220px;
+        width: 800px;
+        height: 300px;
+        background-color: white;
+        border-radius: 25px 25px 25px 25px ;
+        box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.222);
+
+    }
+    
+    div#form {
+        background-color: white;
+        width: 400px;
+        margin-left: 237px;
+        position: relative;
+        right: 28%;
+        bottom: 93%;
+        border-radius: 25px 25px 25px 25px;
+
+    }
+
+    div#imagem {
+        margin-left: 420px;
+        display: block;
+        background-image: url(../fotopredio-maior.jpg);
+       background-size: cover;
+       background-position: right top;
+       background-position: relative;
+        width: 380px;
+        height: 300px;
+        border-radius: 0px 24px 24px 0px;
+        
+        
+    }
+
+    div#form h2 {
+        text-align: center;
+        
+    }
+
+    div.campo {
+        background-color: #733ba2f3;
+        border-radius: 10px;
+        margin: 4px;
+        
+    }
+
+    input#email, input#senha, input#entrar, div.esqsenha {
+        width: 350px;
+        height: 30px;
+    }
+
+    input#entrar {
+        width: 380px;
+    }
+    div.esqsenha {
+        height: 23px;
+        width: 380px;
+    }
+
+    
+
+}
