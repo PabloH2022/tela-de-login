@@ -18,7 +18,7 @@
 
 }
 
-body {
+body, html {
     
     height: 85vh;
     background:  #490b71;
