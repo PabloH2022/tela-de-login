@@ -36,6 +36,7 @@ main > section {
     margin: auto;
     margin-top: 110px;
     border-radius: 15px;
+    transition: width .4s, height .4s;
     
 
 
@@ -49,12 +50,15 @@ div#imagem {
     width: 220px;
     height: 25vh;
     border-radius: 15px 15px 0px 0px;
+    transition: width .1s, height .1s;
+    transition-timing-function: ease;
     
 }
 
 div#form {
     text-align: center;
     padding: 2px;
+    transition: width .1s, height .1s;
 }
 
 div#form h2 {
@@ -89,6 +93,7 @@ input {
     width: 160px;
     height: 35px;
     margin: 1px solid rgba(0, 0, 0, 0.439);
+    transition: width .1s, height .1s;
 
 }
 ::placeholder {
