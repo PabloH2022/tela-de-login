@@ -12,7 +12,7 @@
         background-color: #550d85;
     }
     body {
-        background: linear-gradient(to bottom, #550d85, #593ca7b3, #2949a1d7 ) no-repeat;
+        background: #550d85;
         max-height: 71vh;
         width: 100vw;
     }
